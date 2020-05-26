@@ -33,5 +33,5 @@ export PIP_TARGET="$(echo $1/.heroku/python/lib/python*.*/site-packages)"
 
 echo "-----> Installing Telegram-stored dependencies"
 cd $1
-python3.7 -m friendly-telegram --heroku-deps-internal
+python3 -m friendly-telegram --heroku-deps-internal
 exit $?
