@@ -1,5 +1,5 @@
 #!/bin/sh
-if [ -d $1/friendly-telegram ]; then
+if [ -d $1/angry-telegram ]; then
   exit 0
 else
   exit 1
